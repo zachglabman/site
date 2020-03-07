@@ -16,18 +16,26 @@
 </head>
 
 <body>
-    <h1>
+    <h1 onclick="changeThis(this, 'Welcome to my channel.', 'black')">
       Hi, I'm Zach.
     </h1>
 
-    <!-- <script> script() = document.getElementsByTagName("h1")    </script> -->
+    <script> function changeThis(elem, txt, clr) {
+      x= elem; 
+      y= x.innerHTML = txt;
+      x.style.color = clr;
+     } 
+     function changeText(id, txt) {
+      document.getElementById(id).innerHTML = txt; 
+     }
+       </script>
 
-
-    <button type="button" onclick="alert('help me lol')" 
-    >Click me!
+    <button type="button" onclick="changeText('hidden', 'this is a test')"
+    >Test?
 
     </button>
 
+    <p id = "hidden"> </p>
     
     <p> This is a <b> tentative</b> website I am creating. I don't know html so I'm trying to teach myself and throw something together.</p>
 </body>
