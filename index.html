@@ -6,7 +6,6 @@
 
   <title>Zach Glabman</title>
 
-  <meta name="description" content="Zach Glabman's website">
   <meta name="author" content="Zach Glabman">
   <!-- view window for phone vs laptop -->
   <meta name = "viewport" content="width=device-width, initial-scale=1.0"> 
@@ -16,27 +15,47 @@
 </head>
 
 <body>
-    <h1 onclick="changeThis(this, 'Welcome to my channel.', 'black')">
-      Hi, I'm Zach.
-    </h1>
 
-    <script> function changeThis(elem, txt, clr) {
-      x= elem; 
-      y= x.innerHTML = txt;
-      x.style.color = clr;
-     } 
-     function changeText(id, txt) {
-      document.getElementById(id).innerHTML = txt; 
-     }
-       </script>
+  <header>
+    <div class="main">
+      <!-- <div class = "logo"> 
+        <img src=""
+      </div> -->
+      <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
 
-    <button type="button" onclick="changeText('hidden', 'this is a test')"
-    >Test?
+  </header>
 
-    </button>
+    <div class = "title">
 
-    <p id = "hidden"> </p>
-    
-    <p> This is a <b> tentative</b> website I am creating. I don't know html so I'm trying to teach myself and throw something together.</p>
+      <h1 onclick="changeThis(this, 'Welcome to my channel.', 'white')">
+        Hi, I'm Zach.
+      </h1>
+
+    </div>
+
+    <!-- <div class="button">
+      <a href="#" class ="btn">Watch Video</a>
+      <a href="#" class ="btn">Learn More</a>
+    </div> -->
+
+      <script> function changeThis(elem, txt, clr) {
+        x= elem; 
+        y= x.innerHTML = txt;
+        x.style.color = clr;
+       } 
+         </script>
+      
+      <!-- <form name="input" action=“https://www.website.com/” method="get">
+        Username: <input type="text" name="user" />
+        <input type="submit" value="Submit" /> -->   
+
+<p> This is a work in progress!</p>
+
 </body>
 </html>
