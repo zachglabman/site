@@ -98,10 +98,12 @@ img{
 }
 
 .container_e{
-    display:grid;
-    grid-template-columns: .5fr 1fr;
     margin-left:10%;
     margin-right: 10%;
+}
+
+.container_e span{
+    text-align: right;
 }
 
 .container p{
