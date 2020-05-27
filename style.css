@@ -116,7 +116,8 @@ padding: 2px;
 
 .nav{
    padding: auto;
-   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/back.JPG);
+   background-color: rgb(12, 72, 109);
+   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/back.JPG); */
    height: 50px;
    background-size: cover;
    background-position: center;
