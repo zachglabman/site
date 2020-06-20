@@ -84,12 +84,6 @@ img{
     vertical-align: middle;
 }
 
-#headshot{
-    border-radius: 70%;
-    height: auto;
-    width: 300px;
-}
-
 .container{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -111,7 +105,8 @@ img{
 }
 
 .container h2, h3{
-padding: 2px;
+    padding: 2px;
+    font-size: 30px;
 }
 
 .nav{
