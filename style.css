@@ -4,41 +4,11 @@ margin: 0;
 padding: 0;
 }
 
-.main{
+#main{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/back.JPG);
     height: 100vh;
     background-size: cover;
     background-position: center;
-}
-
-ul{
-    float:right;
-    list-style-type: none;
-    margin-top: 20px;
-    margin-right: 20px;
-}
-
-ul li{
-    display: inline-block;
-
-}
-
-ul li a{
-    text-decoration: none;
-    color: white;
-    padding: 5px 20px;
-    border: 1px solid transparent;
-    transition: 0.6s ease;
-}
-
-ul li a:hover{
-    background-color: white;
-    color: black;
-}
-
-ul li.active a{
-    background-color: white;
-    color: black;
 }
 
 .title{
@@ -83,13 +53,13 @@ img{
     max-width: 100%;
     vertical-align: middle;
 }
-
+/* 
 .container{
     display:grid;
     grid-template-columns: 1fr 1fr;
     margin-left:10%;
     margin-right: 10%;
-}
+} */
 
 .container_e{
     margin-left:10%;
@@ -100,22 +70,56 @@ img{
     text-align: right;
 }
 
-.container p{
+/* .container p{
     text-align: justify;
 }
 
 .container h2, h3{
     padding: 2px;
     font-size: 30px;
-}
+} */
 
 .nav{
    padding: auto;
-   background-color: rgb(12, 72, 109);
+   background: #6E6CCE;
+   background: -moz-linear-gradient(left, #6E6CCE 0%, #3F45CD 38%, #5525C5 100%);
+   background: -webkit-linear-gradient(left, #6E6CCE 0%, #3F45CD 38%, #5525C5 100%);
+   background: linear-gradient(to right, #6E6CCE 0%, #3F45CD 38%, #5525C5 100%);
    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/back.JPG); */
-   height: 50px;
+   height: auto;
    background-size: cover;
    background-position: center;
+
+}
+
+.nav ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.nav ul li{
+    display: inline-block;
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.nav ul li.active a{
+    background-color: white;
+    color: black;
 }
 
 .blurb{
@@ -125,3 +129,4 @@ img{
 span{
     color: rgb(122, 116, 116);
 }
+
