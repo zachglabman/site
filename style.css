@@ -4,21 +4,21 @@ margin: 0;
 padding: 0;
 }
 
-#main{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/back.JPG);
+#main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/back.JPG);
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
 
-.title{
+.title {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.title h1{
+.title h1 {
     color:white;
     font-size: 60px;
 }
@@ -28,7 +28,7 @@ p{
     padding:auto;
 }
 
-.sidebar{
+.sidebar {
     height: auto;
     width: 50px;
     position: fixed;
@@ -40,7 +40,7 @@ p{
     padding-top: 50px;
   }
 
-.sidebar a{
+.sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -48,7 +48,7 @@ p{
     display: block;
   }
 
-img{
+img {
     max-height: 100%;
     max-width: 100%;
     vertical-align: middle;
@@ -61,12 +61,12 @@ img{
     margin-right: 10%;
 } */
 
-.container_e{
+.container_e {
     margin-left:10%;
     margin-right: 10%;
 }
 
-.container_e span{
+.container_e span {
     text-align: right;
 }
 
@@ -79,7 +79,7 @@ img{
     font-size: 30px;
 } */
 
-.nav{
+.nav {
    padding: auto;
    background: #6E6CCE;
    background: -moz-linear-gradient(left, #6E6CCE 0%, #3F45CD 38%, #5525C5 100%);
@@ -92,19 +92,20 @@ img{
 
 }
 
-.nav ul{
+.nav ul {
     float:right;
+    display: flex;
     list-style-type: none;
     margin-top: 20px;
     margin-right: 20px;
 }
 
-.nav ul li{
+.nav ul li {
     display: inline-block;
 
 }
 
-.nav ul li a{
+.nav ul li a {
     text-decoration: none;
     color: white;
     padding: 5px 20px;
@@ -112,21 +113,21 @@ img{
     transition: 0.6s ease;
 }
 
-.nav ul li a:hover{
+.nav ul li a:hover {
     background-color: white;
     color: black;
 }
 
-.nav ul li.active a{
+.nav ul li.active a {
     background-color: white;
     color: black;
 }
 
-.blurb{
+.blurb {
     font-size:20px
 }
 
-span{
+span {
     color: rgb(122, 116, 116);
 }
 
