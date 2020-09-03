@@ -38,6 +38,7 @@ p{
     background-color:transparent;
     overflow-x: hidden;
     padding-top: 50px;
+    
   }
 
 .sidebar a {
@@ -61,10 +62,9 @@ img {
     margin-right: 10%;
 } */
 
-.container_e {
-    margin-left:10%;
-    margin-right: 10%;
-}
+.information{
+    padding-left: 50px;
+    }
 
 .container_e span {
     text-align: right;
@@ -124,7 +124,7 @@ img {
 }
 
 .blurb {
-    font-size:1.5vw
+    font-size:1.75vw
 }
 
 span {
